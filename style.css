@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap');
+
+body{
+    background-color: rgb(41, 41, 41);
+}
+
+h1, h3{
+    font-family: 'Libre Franklin', sans-serif;
+    color:white;
+}
+
+.contact-info{
+    font-family: 'Libre Franklin', sans-serif;
+    color:white;
+}
+
+.img {
+    margin: auto;
+    padding: 10px;
+    padding-top: 100px;
+    width: 45%;
+}
+/* Style all font awesome icons */
+.socials {
+    margin: auto;
+    padding: 20px;
+    padding-top: 300px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+footer{
+    position: fixed;
+    padding: 15px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+    /* Height of the footer*/ 
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(71, 71, 71);
+    font-family: 'Libre Franklin', sans-serif;
+    color:white;
+ }
+.contactTop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:10%;
+    padding-bottom: 0px;
+    font-family: 'Libre Franklin', sans-serif;
+    color:rgb(255, 255, 255);
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0px;
+    font-family: 'Libre Franklin', sans-serif;
+    color:rgb(255, 255, 255);
+}
