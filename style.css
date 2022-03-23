@@ -9,6 +9,11 @@ h1, h3{
     color:white;
 }
 
+.headerStyle{
+    font-family: 'Libre Franklin', sans-serif;
+    color:white;
+}
+
 .contact-info{
     font-family: 'Libre Franklin', sans-serif;
     color:white;
@@ -67,4 +72,12 @@ footer{
 }
 .carousel-control-next{
     margin-right: 15%;
+}
+.colorblock-green{
+    background-color: rgb(76, 124, 76);
+    margin: auto;
+    padding: 50px;
+    padding-bottom: 40%;
+    margin-top: 10%;
+    
 }
