@@ -6,9 +6,12 @@ body{
     margin: 0;
 }
 
-h1, h3, h2{
+h1, h3, h2, h4, h5{
     font-family: 'Libre Franklin', sans-serif;
     color:white;
+}
+h5{
+    text-align: left;
 }
 
 .headerStyle{
@@ -110,3 +113,16 @@ footer{
     color: white;
   }
   
+.project-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:3%;
+    padding-bottom: 0px;
+    padding-left: 60%;
+    font-family: 'Libre Franklin', sans-serif;
+    color:rgb(255, 255, 255);
+}
+.whitespace{
+    padding-top: 40%;
+}
