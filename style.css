@@ -2,11 +2,16 @@
 
 body{
     background-color: rgb(41, 41, 41);
+    height: 100%;
+    margin: 0;
 }
 
-h1, h3{
+h1, h3, h2, h4, h5{
     font-family: 'Libre Franklin', sans-serif;
     color:white;
+}
+h5{
+    text-align: left;
 }
 
 .headerStyle{
@@ -80,4 +85,44 @@ footer{
     padding-bottom: 40%;
     margin-top: 10%;
     
+}
+.centerImageText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://cdn.pixabay.com/photo/2021/09/12/07/58/banner-6617553__340.jpg");
+    padding-top: 300px;
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  
+.project-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:3%;
+    padding-bottom: 0px;
+    padding-left: 60%;
+    font-family: 'Libre Franklin', sans-serif;
+    color:rgb(255, 255, 255);
+}
+.whitespace{
+    padding-top: 40%;
 }
