@@ -6,11 +6,12 @@ $(document).ready(function(){
         cache:false,
 
         error:function(){
-            window.alert("error");
+            error();
         },
 
         success:function(response){
             var project = $(response).find('Project[name="'+ getParameterByName("name") +'"]');
+            if(project.length <= 0) error();
 
             var title = $(project).find("Title").text();
             var subtitle = $(project).find("Subtitle").text();
