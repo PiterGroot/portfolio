@@ -1,7 +1,7 @@
 $(document).ready(function(){
     $.ajax({
         type:'GET',
-        url:'projectsInfo.xml',
+        url:'./projectsinfo.xml',
         dataType:'xml',
         cache:false,
 
