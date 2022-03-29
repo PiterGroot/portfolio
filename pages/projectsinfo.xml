@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Projects>
-    <Project>
+    <Project name="td">
         <Title>TowerDefense</Title>
+        <Subtitle>A tower defense game I made for a school assignment.</Subtitle>
+        <Images>../images/gif2.gif,../image/test.png</Images>
         <Type>Game</Type>
-        <Date>111111</Date>
-        <Software>Unity</Software>
+        <Date>07-09-2021</Date>
+        <Software>Unity, Blender, Vscode and PAINT.net</Software>
         <Lang>C#</Lang>
+        <Role>Programmer</Role>
     </Project>
-    <Project name="test">
-        <Title>TowerDhhhhdhdhefense</Title>
+    <Project name="sand">
+        <Title>Falling Sand Engine</Title>
         <Type>Game</Type>
         <Date>111111</Date>
         <Software>Unity</Software>

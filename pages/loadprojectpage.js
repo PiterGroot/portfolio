@@ -1,0 +1,39 @@
+$(document).ready(function(){
+    $.ajax({
+        type:'GET',
+        url:'./projectsInfo.xml',
+        dataType:'xml',
+        cache:false,
+
+        error:function(){
+            window.alert("error");
+        },
+
+        success:function(response){
+            var project = $(response).find('Project[name="'+ getParameterByName("name") +'"]');
+
+            var title = $(project).find("Title").text();
+            var subtitle = $(project).find("Subtitle").text();
+            var type = $(project).find("Type").text();
+            var date = $(project).find("Date").text();
+            var software = $(project).find("Software").text();
+            var lang = $(project).find("Lang").text();
+            
+            $("#title").text(title);
+            $("#subtitle").text(subtitle);
+            $("#type").text(type);
+            $("#date").text(date);
+            $("#software").text(software);
+            $("#lang").text(lang);
+        }
+    });
+});
+
+function getParameterByName(name, url = window.location.href) {
+    name = name.replace(/[\[\]]/g, '\\$&');
+    var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, ' '));
+}

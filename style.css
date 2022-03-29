@@ -6,11 +6,11 @@ body{
     margin: 0;
 }
 
-h1, h3, h2, h4, h5{
+h1, h3, h2, h4{
     font-family: 'Libre Franklin', sans-serif;
     color:white;
 }
-h5{
+text{
     text-align: left;
 }
 
@@ -128,3 +128,11 @@ footer{
     padding-top: 40%;
 }
 
+.error-gif{
+    height: 50%;
+    width: 50%;
+    object-fit: contain;
+}
+.error-text{
+    top:17%;
+}
