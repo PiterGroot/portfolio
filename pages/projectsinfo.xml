@@ -19,5 +19,14 @@
         <Lang>C#</Lang>
         <Role>Programmer</Role>
     </Project>
+    <Project name="worldgen">
+        <Title>2D world generation</Title>
+        <Subtitle>Containing mountains, infinite terrain and caves!</Subtitle>
+        <Type>Game</Type>
+        <Date>18-05-2021</Date>
+        <Software>Unity</Software>
+        <Lang>C#</Lang>
+        <Role>Programmer</Role>
+    </Project>
 </Projects>
 
