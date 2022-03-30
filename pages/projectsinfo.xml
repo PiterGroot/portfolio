@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Projects>
-    <Project name="td">
+    <Project name="tower">
         <Title>TowerDefense</Title>
         <Subtitle>A tower defense game I made for a school assignment.</Subtitle>
         <Images>../images/gif2.gif,../image/test.png</Images>
@@ -12,8 +12,9 @@
     </Project>
     <Project name="sand">
         <Title>Falling Sand Engine</Title>
+        <Subtitle>A falling sand game I originally wrote for a game jam, but decided to work on it alone instead.</Subtitle>
         <Type>Game</Type>
-        <Date>111111</Date>
+        <Date>23-11-2021</Date>
         <Software>Unity</Software>
         <Lang>C#</Lang>
         <Role>Programmer</Role>

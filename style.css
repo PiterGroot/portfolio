@@ -77,11 +77,11 @@ footer{
 }
 
 .carousel-control-prev{
-    margin-left: 15%;
+    margin-left: 10%;
 }
 
 .carousel-control-next{
-    margin-right: 15%;
+    margin-right: 10%;
 }
 
 .colorblock-green{
@@ -164,3 +164,8 @@ footer{
     margin-bottom: 20%;
     color:white;    
 }                                           
+
+.gif:hover{
+    opacity: .8;
+    cursor: pointer;
+}
