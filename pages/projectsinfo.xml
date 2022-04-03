@@ -3,7 +3,7 @@
     <Project name="tower">
         <Title>TowerDefense</Title>
         <Subtitle>A tower defense game I made for a school assignment.</Subtitle>
-        <Images>../images/gif2.gif,../image/test.png</Images>
+        <Images>../images/sand/banner.png</Images>
         <Type>Game</Type>
         <Date>07-09-2021</Date>
         <Software>Unity, Blender, Vscode and PAINT.net</Software>
@@ -15,6 +15,15 @@
         <Subtitle>A falling sand game I originally wrote for a game jam, but decided to work on it alone instead.</Subtitle>
         <Type>Game</Type>
         <Date>23-11-2021</Date>
+        <Software>Unity</Software>
+        <Lang>C#</Lang>
+        <Role>Programmer</Role>
+    </Project>
+    <Project name="worldgen">
+        <Title>2D world generation</Title>
+        <Subtitle>Containing mountains, infinite terrain and caves!</Subtitle>
+        <Type>Game</Type>
+        <Date>18-05-2021</Date>
         <Software>Unity</Software>
         <Lang>C#</Lang>
         <Role>Programmer</Role>

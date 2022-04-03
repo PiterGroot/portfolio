@@ -15,6 +15,7 @@ $(document).ready(function(){
 
             var title = $(project).find("Title").text();
             var subtitle = $(project).find("Subtitle").text();
+            var banner = $(project).find("Images")
             var type = $(project).find("Type").text();
             var date = $(project).find("Date").text();
             var software = $(project).find("Software").text();
@@ -22,6 +23,7 @@ $(document).ready(function(){
             
             $("#title").text(title);
             $("#subtitle").text(subtitle);
+            $("#subtitle").
             $("#type").text(type);
             $("#date").text(date);
             $("#software").text(software);

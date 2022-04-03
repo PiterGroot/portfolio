@@ -11,7 +11,7 @@ function UpdateText(){
         $("#timer").text("Redirecting in " + seconds + "s");
     }
     else{
-        window.location.href = "../index.html"
+        window.location.href = "projecten.html"
     }
 }
 
