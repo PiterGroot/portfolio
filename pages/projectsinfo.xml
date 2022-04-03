@@ -3,7 +3,7 @@
     <Project name="tower">
         <Title>TowerDefense</Title>
         <Subtitle>A tower defense game I made for a school assignment.</Subtitle>
-        <Images>../images/gif2.gif,../image/test.png</Images>
+        <Images>../images/sand/banner.png</Images>
         <Type>Game</Type>
         <Date>07-09-2021</Date>
         <Software>Unity, Blender, Vscode and PAINT.net</Software>

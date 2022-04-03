@@ -128,7 +128,6 @@ footer{
     padding-left: 60%;
     font-family: 'Libre Franklin', sans-serif;
     color:rgb(255, 255, 255);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://cdn.pixabay.com/photo/2015/12/06/09/15/maple-1079235__480.jpg");
 }
 
 .whitespace{
