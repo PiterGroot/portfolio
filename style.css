@@ -101,7 +101,7 @@ footer{
 
 
 .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://cdn.pixabay.com/photo/2021/09/12/07/58/banner-6617553__340.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
     padding-top: 300px;
     height: 50%;
     background-position: center;
