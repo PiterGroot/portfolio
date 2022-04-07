@@ -15,7 +15,7 @@ $(document).ready(function(){
 
             var title = $(project).find("Title").text();
             var subtitle = $(project).find("Subtitle").text();
-            var banner = $(project).find("Images").text();
+            var banner = $(project).find("Banner").text();
             var role = $(project).find("Role").text();
             var type = $(project).find("Type").text();
             var date = $(project).find("Date").text();
@@ -24,7 +24,6 @@ $(document).ready(function(){
             
             $("#title").text(title);
             $("#subtitle").text(subtitle);
-            console.log(banner);
             $(".hero-image").css("background-image", "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(" + banner + ")");
             $("#role").text(role);
             $("#type").text(type);
