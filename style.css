@@ -119,14 +119,14 @@ footer{
   }
   
 .project-info{
-    display: flex;
+    display: inline-block;
     justify-content: center;
     align-items: center;
     padding-top:3%;
-    padding-bottom: 0px;
-    padding-left: 60%;
+    padding-left: 25%;
     font-family: 'Libre Franklin', sans-serif;
     color:rgb(255, 255, 255);
+    
 }
 
 .whitespace{
@@ -189,3 +189,7 @@ footer{
     flex: 33.33%;
     padding: 5px;
   }
+
+.sideside {
+    display: inline-block;
+}
