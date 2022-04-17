@@ -4,6 +4,7 @@
         <Title>TowerDefense</Title>
         <Subtitle>A tower defense game I made for a school assignment.</Subtitle>
         <Banner>../images/td/banner.png</Banner>
+        <YT>https://www.youtube.com/embed/WFg7cGwH0js?t=12</YT>
         <Type>Game</Type>
         <Date>07-09-2021</Date>
         <Software>Unity, Blender, Vscode and PAINT.net</Software>
@@ -13,6 +14,7 @@
     <Project name="sand">
         <Title>Falling Sand Engine</Title>
         <Banner>../images/sand/banner.png</Banner>
+        <YT>https://www.youtube.com/embed/REKUA5vgOz8</YT>
         <Subtitle>A falling sand game I originally wrote for a game jam, but decided to work on it alone instead.</Subtitle>
         <Type>Game</Type>
         <Date>23-11-2021</Date>
@@ -22,6 +24,7 @@
     </Project>
     <Project name="worldgen">
         <Title>2D world generation</Title>
+        <YT>https://www.youtube.com/embed/REKUA5vgOz8</YT>
         <Subtitle>Containing mountains, infinite terrain and caves!</Subtitle>
         <Type>Game</Type>
         <Date>18-05-2021</Date>
@@ -31,6 +34,7 @@
     </Project>
     <Project name="shapr">
         <Title>Shapr</Title>
+        <YT>https://www.youtube.com/embed/REKUA5vgOz8</YT>
         <Subtitle>A simplistic 2D dungeon crawler roguelike!</Subtitle>
         <Type>Game</Type>
         <Date>06-04-2022</Date>
