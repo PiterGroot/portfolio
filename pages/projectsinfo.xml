@@ -10,7 +10,7 @@
         <Software>Unity, Blender, Vscode and PAINT.net</Software>
         <Lang>C#</Lang>
         <Role>Programmer</Role>
-        <ShowcaseText>TESTETSTETETTSTTSTETSTDTETSTESTETESTTE></ShowcaseText>
+        <ShowcaseText>Dit was het eerste school project van mijn tweede schooljaar\n nhehe</ShowcaseText>
         <ShowcaseImg>../images/td/showcase.jpg</ShowcaseImg>
     </Project>
     <Project name="sand">
@@ -23,7 +23,7 @@
         <Software>Unity</Software>
         <Lang>C#</Lang>
         <Role>Programmer</Role>
-        <ShowcaseText>TESTETSTETETTSTTSTETSTDTETSTESTETESTTE></ShowcaseText>
+        <ShowcaseText>TESTETSTETETTSTTSTETSTDTETSTESTETESTTE</ShowcaseText>
         <ShowcaseImg>../images/sand/showcase.jpg</ShowcaseImg>
     </Project>
     <Project name="worldgen">

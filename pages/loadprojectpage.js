@@ -24,7 +24,9 @@ $(document).ready(function(){
             var lang = $(project).find("Lang").text();
             var showcase_text = $(project).find("ShowcaseText").text();
             var showcase_img = $(project).find("ShowcaseImg").text();
-            
+
+            var sentence1 = showcase_text.split(".")[0];
+
             $("#title").text(title);
             $("#subtitle").text(subtitle);
             $(".hero-image").css("background-image", "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(" + banner + ")");
