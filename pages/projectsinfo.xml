@@ -42,5 +42,15 @@
         <Lang>C#</Lang>
         <Role>Programmer</Role>
     </Project>
+    <Project name="water">
+        <Title>Water shader</Title>
+        <YT>https://www.youtube.com/embed/3U19TpS8N1s</YT>
+        <Subtitle>A shader made with shadergraph in Unity.</Subtitle>
+        <Type>Game</Type>
+        <Date>07-03-2022</Date>
+        <Software>Unity</Software>
+        <Lang>Shadergraph</Lang>
+        <Role>Programmer</Role>
+    </Project>
 </Projects>
 
