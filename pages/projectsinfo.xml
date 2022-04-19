@@ -3,15 +3,24 @@
     <Project name="tower">
         <Title>TowerDefense</Title>
         <Subtitle>A tower defense game I made for a school assignment.</Subtitle>
-        <Banner>../images/td/banner.jpg</Banner>
+        <Banner>../images/td/banner.png</Banner>
         <YT>https://www.youtube.com/embed/WFg7cGwH0js?t=12</YT>
         <Type>Game</Type>
         <Date>07-09-2021</Date>
         <Software>Unity, Blender, Vscode and PAINT.net</Software>
         <Lang>C#</Lang>
         <Role>Programmer</Role>
-        <ShowcaseText>TESTETSTETETTSTTSTETSTDTETSTESTETESTTE></ShowcaseText>
+        <ShowcaseText>        This was the first school assignment of my second year. 
+        In this assignment we had to make a tower defense game.  
+        I already had a pretty good idea what I wanted to make. 
+        Flying drone and grapple hooks! 
+        
+        In my game you first play the game as a normal tower defense 
+        game, but then you notices that boxes are falling on the 
+        playground. You can then go into 'drone mode' and pick them up 
+        with your grappling hook an bring it back to base.</ShowcaseText>
         <ShowcaseImg>../images/td/showcase.jpg</ShowcaseImg>
+        <Github>https://github.com/PiterGroot/TowerDefense</Github>
     </Project>
     <Project name="sand">
         <Title>Falling Sand Engine</Title>
@@ -23,11 +32,13 @@
         <Software>Unity</Software>
         <Lang>C#</Lang>
         <Role>Programmer</Role>
-        <ShowcaseText>TESTETSTETETTSTTSTETSTDTETSTESTETESTTE></ShowcaseText>
+        <ShowcaseText>TESTETSTETETTSTTSTETSTDTETSTESTETESTTE</ShowcaseText>
         <ShowcaseImg>../images/sand/showcase.jpg</ShowcaseImg>
+        <Github>https://github.com/PiterGroot/UnityFallingSandEngine</Github>
     </Project>
     <Project name="worldgen">
         <Title>2D world generation</Title>
+        <Banner>../images/worldgen/banner.png</Banner>
         <YT>https://www.youtube.com/embed/REKUA5vgOz8</YT>
         <Subtitle>Containing mountains, infinite terrain and caves!</Subtitle>
         <Type>Game</Type>
@@ -37,10 +48,12 @@
         <Role>Programmer</Role>
         <ShowcaseText>TESTETSTETETTSTTSTETSTDTETSTESTETESTTE</ShowcaseText>
         <ShowcaseImg>../images/worldgen/showcase.jpg</ShowcaseImg>
+        <Github></Github>
     </Project>
     <Project name="shapr">
         <Title>Shapr</Title>
-        <YT>https://www.youtube.com/embed/REKUA5vgOz8</YT>
+        <YT>https://www.youtube.com/embed/CkFXxgCNoR0</YT>
+        <Banner>../images/shapr/banner.png</Banner>
         <Subtitle>A simplistic 2D dungeon crawler roguelike!</Subtitle>
         <Type>Game</Type>
         <Date>06-04-2022</Date>
@@ -48,11 +61,13 @@
         <Lang>C#</Lang>
         <Role>Programmer</Role>
         <ShowcaseText>TESTETSTETETTSTTSTETSTDTETSTESTETESTTE</ShowcaseText>
-        <ShowcaseImg>../images/shapr/showcase.jpg</ShowcaseImg>
+        <ShowcaseImg>../images/gif4.gif</ShowcaseImg>
+        <Github></Github>
     </Project>
     <Project name="water">
         <Title>Water shader</Title>
         <YT>https://www.youtube.com/embed/3U19TpS8N1s</YT>
+        <Banner>../images/water/banner.png</Banner>
         <Subtitle>A shader made with shadergraph in Unity.</Subtitle>
         <Type>Game</Type>
         <Date>07-03-2022</Date>
@@ -61,6 +76,7 @@
         <Role>Programmer</Role>
         <ShowcaseText>TESTETSTETETTSTTSTETSTDTETSTESTETESTTE</ShowcaseText>
         <ShowcaseImg>../images/water/showcase.jpg</ShowcaseImg>
+        <Github></Github>
     </Project>
 </Projects>
 

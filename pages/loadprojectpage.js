@@ -24,6 +24,12 @@ $(document).ready(function(){
             var lang = $(project).find("Lang").text();
             var showcase_text = $(project).find("ShowcaseText").text();
             var showcase_img = $(project).find("ShowcaseImg").text();
+            var github = $(project).find("Github").text();
+            
+            if(github == "") {
+                $(".github-link").remove();
+                console.log("REMOVED!");
+            }
             
             $("#title").text(title);
             $("#subtitle").text(subtitle);
@@ -34,8 +40,10 @@ $(document).ready(function(){
             $("#date").text(date);
             $("#software").text(software);
             $("#lang").text(lang);
-            $(".project-showcasetext").text(showcase_text);
             $(".showcase-img").attr('src', showcase_img);
+            $(".project-showcasetext").text(showcase_text);
+            $(".github-link").attr('href', github);
+
         }
     });
 });
