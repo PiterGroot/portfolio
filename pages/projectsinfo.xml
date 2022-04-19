@@ -3,13 +3,15 @@
     <Project name="tower">
         <Title>TowerDefense</Title>
         <Subtitle>A tower defense game I made for a school assignment.</Subtitle>
-        <Banner>../images/td/banner.png</Banner>
+        <Banner>../images/td/banner.jpg</Banner>
         <YT>https://www.youtube.com/embed/WFg7cGwH0js?t=12</YT>
         <Type>Game</Type>
         <Date>07-09-2021</Date>
         <Software>Unity, Blender, Vscode and PAINT.net</Software>
         <Lang>C#</Lang>
         <Role>Programmer</Role>
+        <ShowcaseText>TESTETSTETETTSTTSTETSTDTETSTESTETESTTE></ShowcaseText>
+        <ShowcaseImg>../images/td/showcase.jpg</ShowcaseImg>
     </Project>
     <Project name="sand">
         <Title>Falling Sand Engine</Title>
@@ -21,6 +23,8 @@
         <Software>Unity</Software>
         <Lang>C#</Lang>
         <Role>Programmer</Role>
+        <ShowcaseText>TESTETSTETETTSTTSTETSTDTETSTESTETESTTE></ShowcaseText>
+        <ShowcaseImg>../images/sand/showcase.jpg</ShowcaseImg>
     </Project>
     <Project name="worldgen">
         <Title>2D world generation</Title>
@@ -31,6 +35,8 @@
         <Software>Unity</Software>
         <Lang>C#</Lang>
         <Role>Programmer</Role>
+        <ShowcaseText>TESTETSTETETTSTTSTETSTDTETSTESTETESTTE</ShowcaseText>
+        <ShowcaseImg>../images/worldgen/showcase.jpg</ShowcaseImg>
     </Project>
     <Project name="shapr">
         <Title>Shapr</Title>
@@ -41,6 +47,8 @@
         <Software>Unity</Software>
         <Lang>C#</Lang>
         <Role>Programmer</Role>
+        <ShowcaseText>TESTETSTETETTSTTSTETSTDTETSTESTETESTTE</ShowcaseText>
+        <ShowcaseImg>../images/shapr/showcase.jpg</ShowcaseImg>
     </Project>
     <Project name="water">
         <Title>Water shader</Title>
@@ -51,6 +59,8 @@
         <Software>Unity</Software>
         <Lang>Shadergraph</Lang>
         <Role>Programmer</Role>
+        <ShowcaseText>TESTETSTETETTSTTSTETSTDTETSTESTETESTTE</ShowcaseText>
+        <ShowcaseImg>../images/water/showcase.jpg</ShowcaseImg>
     </Project>
 </Projects>
 

@@ -22,6 +22,8 @@ $(document).ready(function(){
             var date = $(project).find("Date").text();
             var software = $(project).find("Software").text();
             var lang = $(project).find("Lang").text();
+            var showcase_text = $(project).find("ShowcaseText").text();
+            var showcase_img = $(project).find("ShowcaseImg").text();
             
             $("#title").text(title);
             $("#subtitle").text(subtitle);
@@ -32,6 +34,8 @@ $(document).ready(function(){
             $("#date").text(date);
             $("#software").text(software);
             $("#lang").text(lang);
+            $(".project-showcasetext").text(showcase_text);
+            $(".showcase-img").attr('src', showcase_img);
         }
     });
 });
