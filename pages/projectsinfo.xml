@@ -32,8 +32,15 @@
         <Software>Unity</Software>
         <Lang>C#</Lang>
         <Role>Programmer</Role>
-        <ShowcaseText>TESTETSTETETTSTTSTETSTDTETSTESTETESTTE</ShowcaseText>
-        <ShowcaseImg>../images/sand/showcase.jpg</ShowcaseImg>
+        <ShowcaseText>        Ever played Noita? Well I have, and I loved it. Noita has 
+        a really cool mechanic and that is that every pixel on
+        the screen is simulated in the physics engine. I made
+        a very simple game out of that idea. Falling Sand 
+        Engine is a sandbox (no pun intended) game where 
+        you van place different elements on the screen. Water 
+        flows, fire and lava burns wood ect ect. I think it is
+        really fun to play around in this game.</ShowcaseText>
+        <ShowcaseImg>../images/gif1.gif</ShowcaseImg>
         <Github>https://github.com/PiterGroot/UnityFallingSandEngine</Github>
     </Project>
     <Project name="worldgen">
@@ -46,8 +53,11 @@
         <Software>Unity</Software>
         <Lang>C#</Lang>
         <Role>Programmer</Role>
-        <ShowcaseText>TESTETSTETETTSTTSTETSTDTETSTESTETESTTE</ShowcaseText>
-        <ShowcaseImg>../images/worldgen/showcase.jpg</ShowcaseImg>
+        <ShowcaseText>        I think almost every game developer at least once in 
+        their live wanted to make a terraria-like game, and so 
+        did I. In this prototype I tried to mimick the terraria 
+        world generation (caves, terrain and mountains)</ShowcaseText>
+        <ShowcaseImg>../images/gif3.gif</ShowcaseImg>
         <Github></Github>
     </Project>
     <Project name="shapr">
@@ -60,7 +70,14 @@
         <Software>Unity</Software>
         <Lang>C#</Lang>
         <Role>Programmer</Role>
-        <ShowcaseText>TESTETSTETETTSTTSTETSTDTETSTESTETESTTE</ShowcaseText>
+        <ShowcaseText>        Shapr (*Shaaper) is my first serious commercial game 
+        project that im making. It has two of my most favourite
+        game genres; Roguelikes and Bullet hells! The idea is 
+        that this game is a simplistic dungeon crawler 
+        roguelike game. The player has a quick dash to dodge 
+        all of the bullets and ofcourse a gun. You have to fight 
+        your way through hordes of enemies and slay powerfull 
+        bosses. </ShowcaseText>
         <ShowcaseImg>../images/gif4.gif</ShowcaseImg>
         <Github></Github>
     </Project>
@@ -74,8 +91,12 @@
         <Software>Unity</Software>
         <Lang>Shadergraph</Lang>
         <Role>Programmer</Role>
-        <ShowcaseText>TESTETSTETETTSTTSTETSTDTETSTESTETESTTE</ShowcaseText>
-        <ShowcaseImg>../images/water/showcase.jpg</ShowcaseImg>
+        <ShowcaseText>        This water shader was actually my first shader ever!     
+        I am really proud because it uses a lot of interesting 
+        tricks and ideas to convey the idea of water. For 
+        example it uses the camera depth buffer to calculate 
+        how far the camera is from the water.</ShowcaseText>
+        <ShowcaseImg>../images/gif5.gif</ShowcaseImg>
         <Github></Github>
     </Project>
 </Projects>
