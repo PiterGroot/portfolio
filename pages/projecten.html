@@ -7,7 +7,8 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" href="../style.css">
-  <link rel="icon" type="image/x-icon" href="https://cdn.discordapp.com/attachments/784744807557890082/966283389252567060/unknown.png">
+  <link rel="icon" type="image/x-icon"
+    href="https://cdn.discordapp.com/attachments/784744807557890082/966283389252567060/unknown.png">
   <script src="../jquery.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
@@ -43,87 +44,74 @@
   </div>
   <!-- Carousel wrapper -->
   <div id="carouselMultiItemExample" class="carousel slide carousel-dark text-center" data-mdb-ride="carousel">
-    <!-- Controls -->
-    <div class="d-flex justify-content-center mb-4">
-      <button class="carousel-control-prev position-relative" type="button" data-mdb-target="#carouselMultiItemExample"
-        data-mdb-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next position-relative" type="button" data-mdb-target="#carouselMultiItemExample"
-        data-mdb-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-    <!-- Inner -->
-    <div class="carousel-inner py-4">
-      <!-- Single item -->
-      <div class="carousel-item active">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-4">
-              <div class="card">
-                <img src="../images/gif1.jpg" onmouseenter=this.src="../images/gif1.gif"
-                  onmouseout=this.src="../images/gif1.jpg" class="card-img-top" alt="Falling Sand Engine"/>
-                <div class="card-body">
-                  <h5 class="card-title">Falling Sand Engine</h5>
-                  <p class="card-text">
-                    A sanbox game I originally wrote for a game jam, but decided to work on it alone instead. 
-                  </p>
-                  <a href="project-page.html?name=sand" class="btn btn-primary">Learn more</a>
+    <div class="container py-4 py-xl-5">
+      <div>
+        <div class="tab-content pt-5">
+          <div class="tab-pane active" role="tabpanel" id="tab-2">
+            <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-xl-3">
+              <div class="col">
+                <div class="card h-100">
+                  <img src="../images/gif1.jpg" onmouseenter=this.src="../images/gif1.gif"
+                    onmouseout=this.src="../images/gif1.jpg" class="card-img-top" alt="Falling Sand Engine" />
+                  <div class="card-body">
+                    <h5 class="card-title">Falling Sand Engine</h5>
+                    <p class="card-text">
+                      A sanbox game I originally wrote for a game jam, but decided to work on it alone instead.
+                    </p>
+                    <a href="project-page.html?name=sand" class="btn btn-primary">Learn more</a>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="col-lg-4 d-none d-lg-block">
-              <div class="card">
-                <img src="../images/gif4.jpg" onmouseenter=this.src="../images/gif4.gif"
-                onmouseout=this.src="../images/gif4.jpg" class="card-img-top" alt="Shapr" />
-                <div class="card-body">
-                  <h5 class="card-title">Shapr</h5>
-                  <p class="card-text">
-                    Fight your way through hordes of enemies and randomly generated dungeons.
-                  </p>
-                  <a href="project-page.html?name=shapr" class="btn btn-primary">Learn more</a>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="../images/gif4.jpg" onmouseenter=this.src="../images/gif4.gif"
+                    onmouseout=this.src="../images/gif4.jpg" class="card-img-top" alt="Shapr" />
+                  <div class="card-body">
+                    <h5 class="card-title">Shapr</h5>
+                    <p class="card-text">
+                      Fight your way through hordes of enemies and randomly generated dungeons.
+                    </p>
+                    <a href="project-page.html?name=shapr" class="btn btn-primary">Learn more</a>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="col-lg-4 d-none d-lg-block">
-              <div class="card">
-                <img src="../images/gif2.jpg" onmouseenter=this.src="../images/gif2.gif"
-                onmouseout=this.src="../images/gif2.jpg" class="card-img-top" alt="Tower Defense game" />
-                <div class="card-body">
-                  <h5 class="card-title">Tower Defense game</h5>
-                  <p class="card-text">
-                    A tower defense game I made for a school assignment. 
-                  </p>
-                  <a href="project-page.html?name=tower" class="btn btn-primary">Learn more</a>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="../images/gif2.jpg" onmouseenter=this.src="../images/gif2.gif"
+                    onmouseout=this.src="../images/gif2.jpg" class="card-img-top" alt="Tower Defense game" />
+                  <div class="card-body">
+                    <h5 class="card-title">Tower Defense game</h5>
+                    <p class="card-text">
+                      A tower defense game I made for a school assignment.
+                    </p>
+                    <a href="project-page.html?name=tower" class="btn btn-primary">Learn more</a>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="col-lg-4 d-none d-lg-block whitespace-xs ">
-              <div class="card">
-                <img src="../images/gif3.jpg" onmouseenter=this.src="../images/gif3.gif"
-                onmouseout=this.src="../images/gif3.jpg" class="card-img-top" alt="2D world generation" />
-                <div class="card-body">
-                  <h5 class="card-title">2D World Generation</h5>
-                  <p class="card-text">
-                    A quick prototype where I wanted to try to mimmick the Terraria world generation.
-                  </p>
-                  <a href="project-page.html?name=worldgen" class="btn btn-primary">Learn more</a>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="../images/gif3.jpg" onmouseenter=this.src="../images/gif3.gif"
+                    onmouseout=this.src="../images/gif3.jpg" class="card-img-top" alt="2D world generation" />
+                  <div class="card-body">
+                    <h5 class="card-title">2D World Generation</h5>
+                    <p class="card-text">
+                      A quick prototype where I wanted to try to mimmick the Terraria world generation.
+                    </p>
+                    <a href="project-page.html?name=worldgen" class="btn btn-primary">Learn more</a>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="col-lg-4 d-none d-lg-block whitespace-xs ">
-              <div class="card">
-                <img src="../images/gif5.jpg" onmouseenter=this.src="../images/gif5.gif"
-                onmouseout=this.src="../images/gif5.jpg" class="card-img-top" alt="Water shader" />
-                <div class="card-body">
-                  <h5 class="card-title">Water shader</h5>
-                  <p class="card-text">
-                    A stylized water shader, made with shadergraph.
-                  </p>
-                  <a href="project-page.html?name=water" class="btn btn-primary">Learn more</a>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="../images/gif5.jpg" onmouseenter=this.src="../images/gif5.gif"
+                    onmouseout=this.src="../images/gif5.jpg" class="card-img-top" alt="Water shader" />
+                  <div class="card-body">
+                    <h5 class="card-title">Water shader</h5>
+                    <p class="card-text">
+                      A stylized water shader, made with shadergraph.
+                    </p>
+                    <a href="project-page.html?name=water" class="btn btn-primary">Learn more</a>
+                  </div>
                 </div>
               </div>
             </div>
