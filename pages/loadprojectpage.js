@@ -40,7 +40,7 @@ $(document).ready(function(){
             $("#date").text(date);
             $("#software").text(software);
             $("#lang").text(lang);
-            $(".showcase-img").attr('src', showcase_img);
+            $(".showcase-img").css("background-image", "linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(" + showcase_img + ")");
             $(".project-showcasetext").text(showcase_text);
             $(".github-link").attr('href', github);
 

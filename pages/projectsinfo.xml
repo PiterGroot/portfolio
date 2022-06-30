@@ -19,7 +19,7 @@
         game, but then you notices that boxes are falling on the 
         playground. You can then go into 'drone mode' and pick them up 
         with your grappling hook an bring it back to base.</ShowcaseText>
-        <ShowcaseImg>../images/td/showcase.jpg</ShowcaseImg>
+        <ShowcaseImg>../images/gif2.gif</ShowcaseImg>
         <Github>https://github.com/PiterGroot/TowerDefense</Github>
     </Project>
     <Project name="sand">
