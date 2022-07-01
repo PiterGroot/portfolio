@@ -7,8 +7,8 @@ $(document).ready(function(){
     if(checkmobile()){
         Swal.fire({
             icon: 'info',
-            title: 'Let op!',
-            text: 'Deze site is nog niet geoptimaliseerd voor mobiele apparaten.',
+            title: 'Caution',
+            text: 'This site is not yet optimised for mobile devices.',
         })
     }
 

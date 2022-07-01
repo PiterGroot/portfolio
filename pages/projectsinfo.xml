@@ -99,5 +99,19 @@
         <ShowcaseImg>../images/gif5.gif</ShowcaseImg>
         <Github></Github>
     </Project>
+    <Project name="bomb">
+        <Title>Bomberguy</Title>
+        <Banner>../images/gif6.png</Banner>
+        <Subtitle>A gamejam remake of bomberman.</Subtitle>
+        <Type>Game</Type>
+        <Date>07-03-2022</Date>
+        <Software>Visual Studio Windows Forms</Software>
+        <Lang>C#</Lang>
+        <Role>Programmer</Role>
+        <ShowcaseText>I participated in a school gamejam where we could make any game we wanted, but its
+        has te be made in visual studio and windows forms. No game engine at all.</ShowcaseText>
+        <ShowcaseImg>../images/gif6.png</ShowcaseImg>
+        <Github>https://github.com/PiterGroot/2022p4GDjam</Github>
+    </Project>
 </Projects>
 
