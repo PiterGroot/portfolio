@@ -101,7 +101,7 @@
     </Project>
     <Project name="bomb">
         <Title>Bomberguy</Title>
-        <Banner>../images/gif6.png</Banner>
+        <Banner>../images/gif6.PNG</Banner>
         <Subtitle>A gamejam remake of bomberman.</Subtitle>
         <Type>Game</Type>
         <Date>07-03-2022</Date>
@@ -110,7 +110,7 @@
         <Role>Programmer</Role>
         <ShowcaseText>I participated in a school gamejam where we could make any game we wanted, but its
         has te be made in visual studio and windows forms. No game engine at all.</ShowcaseText>
-        <ShowcaseImg>../images/gif6.png</ShowcaseImg>
+        <ShowcaseImg>../images/gif6.PNG</ShowcaseImg>
         <Github>https://github.com/PiterGroot/2022p4GDjam</Github>
     </Project>
 </Projects>
